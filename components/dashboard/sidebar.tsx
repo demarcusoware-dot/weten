@@ -29,7 +29,7 @@ export default function Sidebar() {
 
   return (
     <div className="max-w-20">
-      {/* Mobile Toggle */}
+      
       <button
         onClick={() => setOpen(true)}
         className="fixed top-4 left-2 z-50 md:hidden bg-miprimary text-white p-2 rounded-lg"
